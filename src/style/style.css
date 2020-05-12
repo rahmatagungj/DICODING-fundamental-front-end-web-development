@@ -1,0 +1,63 @@
+.bg-light {
+    color: white;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background: burlywood;
+    color: white;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.card:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    border-radius: 31px;
+}
+a {
+    color: white;
+}
+
+.berita {
+    color: black;
+}
+a:hover {
+    color: brown;
+}
+
+body{
+    background: linear-gradient(339deg, #ffffff, #c8724a);
+    background-size: 400% 400%;
+    
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+    
+}
+* {
+    color: white;
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:23% 0%}
+    50%{background-position:78% 100%}
+    100%{background-position:23% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:23% 0%}
+    50%{background-position:78% 100%}
+    100%{background-position:23% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:23% 0%}
+    50%{background-position:78% 100%}
+    100%{background-position:23% 0%}
+}
